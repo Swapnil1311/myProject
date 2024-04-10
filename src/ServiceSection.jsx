@@ -20,85 +20,89 @@ export const ServiceSection = () => {
   </div>
 
   <div className="w-full flex justify-center flex-wrap">
-    <div className="flex flex-grow">
-      <div className="border-t border-b border-gray-500 border-r p-20 flex-grow">
-        <img className="w-full h-40" src={img1} alt="" />
-        <h1 className="mt-6 font-bold text-lg">Web Design</h1>
-        <p className="font-light mt-4">
-          {" "}
-          Elevate your brand with captivating web design. Tailored solutions for
-          a standout online presence
-        </p>
-        <a className="underline decoration-solid font-bold" href="#">
-          Explore Now
-        </a>
-      </div>
-      <div className="border-t border-b border-gray-500 border-r p-20 flex-grow">
-        <img className="w-full h-40" src={img2} alt="" />
-        <h1 className="mt-6 font-bold text-lg">Marketing</h1>
-        <p className="mt-4">
-          {" "}
-          Boost your reach with strategic marketing. Drive growth with targeted
-          campaigns.
-        </p>
-        <a className="underline decoration-solid font-bold" href="#">
-          Explore Now
-        </a>
-      </div>
-      <div className="border-t border-b border-gray-500 p-20 flex-grow">
-        <img className="w-full h-40" src={img3} alt="" />
-        <h1 className="mt-6 font-bold text-lg">Online Stores</h1>
-        <p className="mt-4">
-          Expand your sales with online stores. Maximize revenue through
-          e-commerce
-        </p>
-        <a className="underline decoration-solid font-bold" href="#">
-          Explore Now
-        </a>
-      </div>
+  <div className="w-full md:w-1/3 md:flex md:flex-grow">
+    <div className="border-t border-b border-gray-500 md:border-r p-20 md:flex-grow">
+      <img className="w-60 h-40" src={img1} alt="" />
+      <h1 className="mt-6 font-bold text-lg">Web Design</h1>
+      <p className="font-light mt-4">
+        Elevate your brand with captivating web design. Tailored solutions for
+        a standout online presence
+      </p>
+      <a className="underline decoration-solid font-bold" href="#">
+        Explore Now
+      </a>
     </div>
   </div>
-  <div className="w-full flex justify-center flex-wrap pb-8">
-    <div className="flex flex-grow">
-      <div className="border-t border-gray-500 border-r p-20 flex-grow">
-        <img className="w-full h-40" src={img4} alt="" />
-        <h1 className="mt-6 font-bold text-lg">Graphic Design</h1>
-        <p className="font-light mt-4">
-          {" "}
-          Elevate your brand with captivating web design. Tailored solutions for
-          a standout online presence
-        </p>
-        <a className="underline decoration-solid font-bold" href="#">
-          Explore Now
-        </a>
-      </div>
-      <div className="border-t border-gray-500 border-r p-20 flex-grow">
-        <img className="w-full h-40" src={img5} alt="" />
-        <h1 className="mt-6 font-bold text-lg">Tasks</h1>
-        <p className="mt-4">
-          {" "}
-          Boost your reach with strategic marketing. Drive growth with targeted
-          campaigns.
-        </p>
-        <a className="underline decoration-solid font-bold" href="#">
-          Explore Now
-        </a>
-      </div>
-      <div className="border-t border-gray-500 p-20 flex-grow">
-        <img className="w-full h-40" src={img6} alt="" />
-        <h1 className="mt-6 font-bold text-lg">Web Development</h1>
-        <p className="mt-4">
-          Expand your sales with online stores. Maximize revenue through
-          e-commerce
-        </p>
-        <a className="underline decoration-solid font-bold" href="#">
-          Explore Now
-        </a>
-      </div>
+  <div className="w-full md:w-1/3 md:flex md:flex-grow">
+    <div className="border-t border-b border-gray-500 md:border-r p-20 md:flex-grow">
+      <img className="w-60 h-40" src={img2} alt="" />
+      <h1 className="mt-6 font-bold text-lg">Marketing</h1>
+      <p className="mt-4">
+        Boost your reach with strategic marketing. Drive growth with targeted
+        campaigns.
+      </p>
+      <a className="underline decoration-solid font-bold" href="#">
+        Explore Now
+      </a>
     </div>
-
-
   </div>
+  <div className="w-full md:w-1/3 md:flex md:flex-grow">
+    <div className="border-t border-b border-gray-500 p-20 md:flex-grow">
+      <img className="w-60 h-40" src={img3} alt="" />
+      <h1 className="mt-6 font-bold text-lg">Online Stores</h1>
+      <p className="mt-4">
+        Expand your sales with online stores. Maximize revenue through
+        e-commerce
+      </p>
+      <a className="underline decoration-solid font-bold" href="#">
+        Explore Now
+      </a>
+    </div>
+  </div>
+</div>
+
+<div className="w-full flex justify-center flex-wrap pb-8">
+  <div className="w-full md:w-1/3 md:flex md:flex-grow">
+    <div className="border-t border-gray-500 md:border-r p-20 md:flex-grow">
+      <img className="w-60 h-40" src={img4} alt="" />
+      <h1 className="mt-6 font-bold text-lg">Graphic Design</h1>
+      <p className="font-light mt-4">
+        Elevate your brand with captivating web design. Tailored solutions for
+        a standout online presence
+      </p>
+      <a className="underline decoration-solid font-bold" href="#">
+        Explore Now
+      </a>
+    </div>
+  </div>
+  <div className="w-full md:w-1/3 md:flex md:flex-grow">
+    <div className="border-t border-gray-500 md:border-r p-20 md:flex-grow">
+      <img className="w-60 h-40" src={img5} alt="" />
+      <h1 className="mt-6 font-bold text-lg">Tasks</h1>
+      <p className="mt-4">
+        Boost your reach with strategic marketing. Drive growth with targeted
+        campaigns.
+      </p>
+      <a className="underline decoration-solid font-bold" href="#">
+        Explore Now
+      </a>
+    </div>
+  </div>
+  <div className="w-full md:w-1/3 md:flex md:flex-grow">
+    <div className="border-t border-gray-500 p-20 md:flex-grow">
+      <img className="w-60 h-40" src={img6} alt="" />
+      <h1 className="mt-6 font-bold text-lg">Web Development</h1>
+      <p className="mt-4">
+        Expand your sales with online stores. Maximize revenue through
+        e-commerce
+      </p>
+      <a className="underline decoration-solid font-bold" href="#">
+        Explore Now
+      </a>
+    </div>
+  </div>
+</div>
+
 </section>
 
 

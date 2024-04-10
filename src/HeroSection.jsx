@@ -9,7 +9,7 @@ export const HeroSection = () => {
    <>
    <section>
   <header className="relative flex flex-col justify-center items-center bg-cover bg-center md:flex-row md:justify-center md:gap-x-44">
-    <div className="flex flex-col justify-center z-10 mx-5 md:mx-50 my-auto items-center md:items-start">
+    <div className="flex flex-col justify-center z-10 mx-5 md:mx-50 my-auto items-center md:items-start mt-10">
       <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-white text-center md:text-left max-w-[500px]">
         Empower your project with expertise and creativity.
       </h1>
@@ -65,7 +65,7 @@ export const HeroSection = () => {
         </a>
       </div>
     </div>
-    <div className="mt-8 md:mt-0 md:absolute inset-0 z-0">
+    <div className="mt-8  absolute md:mt-0 md:absolute inset-0 z-0">
       <picture>
         <source media="(min-width: 10px) and (max-width: 1500px)" />
         <img

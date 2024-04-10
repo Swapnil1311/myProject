@@ -49,14 +49,13 @@ export const ProsSection = () => {
     </div>
     <picture className="z-10">
       <img
-        className="h-[675px] mt-20"
+        className="md:h-[675px] mt-20"
         src={imgae2}
         alt="A Wix Marketplace profile showing a professional freelancer."
       />
     </picture>
   </div>
-</section>
-
+  </section>
    </>
   )
 }

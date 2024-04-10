@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export const Navbar = () => {
   return (
@@ -63,7 +65,7 @@ export const Navbar = () => {
   </div>
   <div className="flex md:hidden">
     <button className="text-black focus:outline-none">
-      <i className="fa-solid fa-bars text-black"></i>
+    <FontAwesomeIcon icon={faBars} className="text-black" />
     </button>
   </div>
   <div className="hidden md:flex">
