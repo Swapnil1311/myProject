@@ -9,10 +9,10 @@ export const ReviewSection = () => {
   return (
     <>
         <>
-  <section className="flex justify-center items-center h-screen">
+  <section className="flex justify-center items-center h-screen w-auto">
     <div className="text-center">
       <h1 className="text-4xl text-black font-bold pt-10">User Reviews</h1>
-      <p className="text-lg font-thin text-black w-[785px] py-10">
+      <p className="text-lg font-thin text-black md:w-[785px] w-400px py-10">
         "Experience seamless website creation with our intuitive builder,
         offering endless customization options and user-friendly tools. Build
         your online presence effortlessly and stand out with our responsive
