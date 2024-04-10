@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 export const Navbar = () => {
   return (
     <>
-        <nav className="md:w-full w-[685px] h-12 bg-white flex justify-between items-center">
+        <nav className="md:w-full w-[660px] h-12 bg-white flex justify-between items-center">
   <div className="flex gap-2 mx-2 px-3 items-center">
     <svg
       className="w-auto h-6 md:w-auto md:h-8 lg:w-auto lg:h-10"
